@@ -25,7 +25,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/prop-types': 'off', // We will use TypeScript's types for component props instead
     'jsx-a11y/anchor-is-valid': 'off', // This rule is not compatible with Next.js's <Link /> component
   },
 }
